@@ -1,0 +1,98 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    margin: 0pt;
+
+}
+
+.nav {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5pt;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text * {
+    margin-left: 10px;
+    color: #333333;
+
+}
+
+.module {
+    background-color: #000000;
+    border-radius: 15pt;
+    color: #ffffff;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10pt;
+    padding: 10pt;
+}
+
+div.logo {
+
+    margin: 20px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        display: none !important;
+    }
+}
+
+footer * {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.collegium {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    flex-wrap: wrap;
+}
+
+.collegium img {
+    border-radius: 15px;
+    margin-right: 20px;
+    width: 130px;
+}
+
+
+a {
+    color: #ffffff;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: #1909f3;
+}
+
+footer a {
+    color: #000000;
+    transition: color 0.5s ease;
+}
+
+footer a:hover {
+    color: #1909f3;
+}
+
+
